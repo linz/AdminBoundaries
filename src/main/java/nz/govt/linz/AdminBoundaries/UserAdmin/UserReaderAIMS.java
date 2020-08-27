@@ -36,8 +36,7 @@ public class UserReaderAIMS extends UserReader {
 	
 	private static final Logger LOGGER = Logger.getLogger(UserReaderAIMS.class.getName());
 	
-	//public static final String user_ref_base = "http://<SVR>:8080/aims/api/admin/users";
-	public static final String user_ref_base = "https://<SVR>:8443/aims/api/admin/users";
+	public static final String user_ref_base = "http://<SVR>:8080/aims/api/admin/users";
 	
 	/** Simple pair class for actions put/post and their json payloads */
 	class ActionPayload {
